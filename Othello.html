@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Othello</title>
+        <link rel="stylesheet" type="text/css" href="js/jquery/css/jquery-ui.min.css" />
+        <link rel="stylesheet" type="text/css" href="js/jquery/ljq/css/jquery-ljq-grid-all.css" />
+        <link rel="stylesheet" type="text/css" href="css/othello.css">
+
+        <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/jquery/ljq/jquery-ljq-grid-all.js"></script>
+        <script type="text/javascript" src="js/othello.js"></script>
+    </head>
+    <body>
+        <h1 align="center">
+            Othello
+        </h1>
+        <div id="wrapper" class="wrapper" align="center">
+            <div id="divGrille" class="ljq-grid" data-cells-exist="false" data-row-count="8" data-column-count="8" data-cell-class-from-value-prefix="img" data-auto-size-cells="true" data-make-cells-square="true"></div>
+            <div class=wrapper align="center">
+                <button class="bouton"> Nouvelle Partie </button>
+                <p>
+                    <a class=countBlanc> </a>
+                    <a class=countNoir> </a>
+                </p>
+                <p class=tour></p>
+            </div>
+        </div>
+    </body>
+</html>

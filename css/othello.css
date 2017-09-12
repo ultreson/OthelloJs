@@ -1,0 +1,32 @@
+.ljq-cell{
+    background-color: saddlebrown;
+    border: solid 1px #0080c0
+}
+#divGrille {
+    width:800px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.bouton {
+    margin-top: 20px;
+}
+.wrapper {
+    clear:both;
+}
+.ljq-cell.img0 {
+    background-image: none;
+}
+.ljq-cell.img1 {
+    background-image: url(../images/cercles/cercle-noir.png);
+}
+.ljq-cell.img2 {
+    background-image: url(../images/cercles/cercle-blanc.png);
+}
+.ljq-cell.img3 {
+    border-color: black;
+    border-width: 4px;
+}
+.ljq-cell.img4 {
+    border-color: white;
+    border-width: 4px;
+}
