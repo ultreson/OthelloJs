@@ -1,4 +1,4 @@
-# OthelloJs
+# [OthelloJs](https://ultreson.github.io/OthelloJs/index.html)
 Project i made in fall of 2016 for my JavaScript class.
 
 It's a JavaScript version of the game Othello using jQueryUI.
